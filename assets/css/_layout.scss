@@ -322,6 +322,7 @@ body{
     @media(max-width:560px){
         height: 160px;
         width: 200px;
+        font-size: x-small;
 
     }
 
@@ -329,6 +330,9 @@ body{
         height: 100px;
         width: 125px;
         font-size: xX-small;
+    }
+    @media(max-width:400px){
+        display:none;
     }
 
 }
