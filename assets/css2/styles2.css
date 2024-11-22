@@ -332,6 +332,11 @@ nav a {
   font-size: xx-large;
 }
 
+.onetotwo {
+  display: flex;
+  justify-content: end;
+}
+
 .mlat {
   border-radius: 5px 0px 0px 10px;
   transition: ease-in-out;
