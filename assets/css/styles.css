@@ -99,6 +99,12 @@
   padding-left: 5px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, "Times New Roman", Times, serif;
+}
+
 a {
   text-decoration: none;
   font-style: none;
@@ -114,11 +120,6 @@ body {
   width: 100%;
   background-color: #D9D9D9;
   height: 100px;
-}
-@media (max-width: 1550px) {
-  .head {
-    height: px;
-  }
 }
 
 .pesquisa {
@@ -464,4 +465,19 @@ body {
   .txt {
     display: none;
   }
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  line-height: 1.8;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: xx-large;
 }/*# sourceMappingURL=styles.css.map */
