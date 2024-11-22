@@ -1,16 +1,22 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman";
+}
+
+body {
+  background-color: #A2CFFE;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   display: flex;
   align-items: center;
   background-color: #d9d9d9;
-  width: 100%;
-  height: 75px;
-  margin-top: 10px;
 }
 
 .Pesq {
@@ -45,7 +51,6 @@ input {
   align-items: center;
   width: 25%;
   justify-content: end;
-  height: 100%;
 }
 
 .menui {
@@ -54,10 +59,7 @@ input {
 }
 
 .alinhamento {
-  width: 1917px;
-  height: 704px;
-  background: linear-gradient(to right, #2273ec, #92afff);
-  border: solid black 1px;
+  height: auto;
   display: flex;
 }
 
@@ -67,36 +69,36 @@ input {
   margin-bottom: 20px;
   width: 10px;
   height: 30px;
-  background: linear-gradient(to right, #2273ec, #92afff);
+  background: #187ce7;
   border-radius: 5px;
 }
 
 .titul {
+  padding-left: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: "Jura";
 }
 
 .redirecionamento {
+  background-color: white;
   display: flex;
 }
 
 .imagem {
+  border-radius: 10px;
   width: 550px;
-  height: 650px;
   background-color: #d9d9d9;
-  border: 1px solid black;
-  margin-left: 100px;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 .imagem img {
-  width: 450px;
-  height: 250px;
-  border: solid black;
-  margin-left: 50px;
-  margin-top: 10px;
+  border: solid black 1px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
 }
 .imagem .origem {
   display: flex;
@@ -130,14 +132,15 @@ input {
   font-size: 500%;
 }
 .conteudo .txt {
+  padding: 15px;
+  border-radius: 10px;
   margin-top: 70px;
-  width: 900px;
-  height: 430px;
   display: flex;
   background-color: #d9d9d9;
-  border: 1px solid black;
 }
 .conteudo .txt p {
+  line-height: 1.8;
+  text-indent: 2%;
   margin-top: 10px;
   font-size: large;
   text-align: justify;
@@ -147,11 +150,8 @@ input {
 }
 
 footer {
+  margin: 3%;
   display: flex;
-  position: absolute;
-  z-index: 10;
-  width: 1919px;
-  background-color: darkblue;
   justify-content: space-between;
 }
 footer button {
@@ -170,4 +170,12 @@ footer button {
   margin-bottom: 50px;
   font-size: larger;
   flex-direction: column;
+}
+
+.aling {
+  display: flex;
+  height: 80%;
+  margin-bottom: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
 }/*# sourceMappingURL=styles2.css.map */

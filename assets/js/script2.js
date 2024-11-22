@@ -1,10 +1,4 @@
 function aparecer(){
     const menu = document.getElementById("lat")
-    menu.classList.remove("aparecer")
+    menu.classList.toggle("aparecer")
   }
-
-  function remover(){
-    const menu = document.getElementById("lat")
-    menu.classList.add("aparecer")
-  }
-  
