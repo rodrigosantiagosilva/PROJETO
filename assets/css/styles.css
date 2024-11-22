@@ -111,14 +111,13 @@ body {
 .head {
   display: flex;
   align-items: center;
-  height: 70px;
-  margin-top: 20px;
   width: 100%;
   background-color: #D9D9D9;
+  height: 100px;
 }
-@media (min-width: 1550px) {
+@media (max-width: 1550px) {
   .head {
-    height: 125px;
+    height: px;
   }
 }
 
@@ -167,8 +166,6 @@ body {
 
 .ihamb {
   height: 100px;
-  border-left: 3px solid white;
-  padding: 5px 0px 5px 5px;
 }
 @media (min-width: 1550px) {
   .ihamb {
@@ -186,19 +183,20 @@ body {
   height: 85vh;
 }
 
-.nav {
+.nav2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 15px;
   height: 250px;
   width: 100%;
   background: #2c8df5;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  gap: 50px;
 }
 @media (min-width: 1550px) {
-  .nav {
+  .nav2 {
     border-radius: 16px;
     border: 2px solid black;
     margin-left: auto;
@@ -208,27 +206,27 @@ body {
   }
 }
 @media (max-width: 1440px) {
-  .nav {
+  .nav2 {
     height: 350px;
   }
 }
 @media (max-width: 968px) {
-  .nav {
+  .nav2 {
     height: 250px;
   }
 }
 @media (max-width: 768px) {
-  .nav {
+  .nav2 {
     height: 200px;
   }
 }
 @media (max-width: 560px) {
-  .nav {
+  .nav2 {
     height: 150px;
   }
 }
 @media (max-width: 400px) {
-  .nav {
+  .nav2 {
     height: 100px;
   }
 }
@@ -248,7 +246,7 @@ body {
   font-family: jura;
   letter-spacing: 5px;
   font-size: 35px;
-  box-shadow: rgba(0, 0, 0, 0.466) 0px 2px 2px 3px;
+  box-shadow: rgba(0, 0, 0, 0.466) 0px 2px 2px 2px;
 }
 @media (min-width: 1550px) {
   .card {
@@ -297,8 +295,8 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
+  margin-top: 3%;
   background-color: #62a2e6 !important;
 }
 @media (min-width: 1550px) {
@@ -411,6 +409,8 @@ body {
   height: 200px;
   width: 300px;
   background-color: white;
+  padding: 20px;
+  line-height: 2;
 }
 @media (min-width: 1550px) {
   .txt {
