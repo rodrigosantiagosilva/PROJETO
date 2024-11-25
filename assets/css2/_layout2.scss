@@ -67,7 +67,7 @@ input {
   margin-bottom: 20px;
   width: 10px;
   height: 30px;
-  background: #187ce7;
+  background: #A2CFFE;
   border-radius: 5px;
 }
 
@@ -82,14 +82,17 @@ input {
     background-color: white;
   display: flex;
 }
+
 .imagem {
-    border-radius: 10px;
+  border-radius: 10px;
   width: 550px;
   background-color: #d9d9d9;
-  margin-top: 30px;
+  margin-top:5%;
   display: flex;
   flex-direction: column;
   padding: 10px;
+  padding-bottom: 100px;
+
   img {
     border: solid black 1px;
     width: 325px;
@@ -119,6 +122,10 @@ input {
     margin-right: 10px;
     padding: 2px;
   }
+  @media(max-width:1318px){
+    margin-top: 258px;
+    height: min-content;
+  }
 }
 
 .text2 {
@@ -136,7 +143,17 @@ input {
   font-size: 20px;
   margin-top: 5px;
 }
-
+.planta{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  img{
+  border: none;
+  border-radius: 0 0 10px 10px;
+  border: solid black 1px;
+  }
+  
+  }
 .conteudo {
 
   margin-left: 5%;
@@ -170,10 +187,10 @@ footer {
   display: flex;
   justify-content: space-between;
   button {
-    font-size: larger;
+    font-size: x-large;
     color: white;
-    width: 120px;
-    height: 50px;
+    width: 135px;
+    height: 65px;
     background-color: #4470eb;
     border: none;
     border-radius: 10px;
@@ -326,3 +343,5 @@ nav {
   display: flex;
   justify-content: end;
 }
+
+

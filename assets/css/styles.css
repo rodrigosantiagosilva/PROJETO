@@ -237,7 +237,6 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
-  border: 2px solid black;
   background-size: cover;
   border-radius: 12px;
   width: 25.88vw;
@@ -291,7 +290,6 @@ body {
 .sob {
   height: 500px;
   width: 95%;
-  border: black 1px solid;
   border-radius: 12px;
   flex-direction: column;
   align-items: start;
@@ -328,7 +326,6 @@ body {
 }
 
 .dec {
-  border: 1.5px solid rgb(0, 0, 0);
   height: 200px;
   width: 300px;
   border-radius: 12px;
@@ -386,7 +383,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border-bottom: 2px solid rgb(0, 0, 0);
   height: 50%;
   width: 100%;
 }
@@ -405,7 +401,6 @@ body {
   display: flex;
   align-items: center;
   text-align: justify;
-  border: 1px solid rgb(0, 0, 0);
   border-radius: 16px;
   height: 200px;
   width: 300px;
